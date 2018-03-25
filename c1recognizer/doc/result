@@ -1,0 +1,614 @@
+{
+    "type": "assembly",
+    "line": 1,
+    "pos": 0,
+    "global_defs": [
+        {
+            "type": "func_def_syntax",
+            "line": 1,
+            "pos": 0,
+            "name": "func",
+            "body": {
+                "type": "block_syntax",
+                "line": 1,
+                "pos": 12,
+                "body": [
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 2,
+                        "pos": 8,
+                        "is_const": false,
+                        "name": "a",
+                        "vardef_initializer": {
+                            "type": "literal_syntax",
+                            "line": 2,
+                            "pos": 12,
+                            "value": 3
+                        }
+                    },
+                    {
+                        "type": "assign_stmt_syntax",
+                        "line": 3,
+                        "pos": 4,
+                        "target": {
+                            "type": "lval_syntax",
+                            "line": 3,
+                            "pos": 4,
+                            "name": "b"
+                        },
+                        "value": {
+                            "type": "literal_syntax",
+                            "line": 3,
+                            "pos": 8,
+                            "value": 4
+                        }
+                    },
+                    {
+                        "type": "assign_stmt_syntax",
+                        "line": 4,
+                        "pos": 4,
+                        "target": {
+                            "type": "lval_syntax",
+                            "line": 4,
+                            "pos": 4,
+                            "name": "c",
+                            "array_index": {
+                                "type": "literal_syntax",
+                                "line": 4,
+                                "pos": 6,
+                                "value": 7
+                            }
+                        },
+                        "value": {
+                            "type": "literal_syntax",
+                            "line": 4,
+                            "pos": 11,
+                            "value": 9
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "var_def_stmt_syntax",
+            "line": 6,
+            "pos": 4,
+            "is_const": false,
+            "name": "v1"
+        },
+        {
+            "type": "var_def_stmt_syntax",
+            "line": 6,
+            "pos": 8,
+            "is_const": false,
+            "name": "v2",
+            "vardef_initializer": {
+                "type": "literal_syntax",
+                "line": 6,
+                "pos": 13,
+                "value": 3
+            }
+        },
+        {
+            "type": "var_def_stmt_syntax",
+            "line": 7,
+            "pos": 4,
+            "is_const": false,
+            "name": "a1",
+            "array_length": {
+                "type": "literal_syntax",
+                "line": 7,
+                "pos": 7,
+                "value": 3
+            },
+            "array_initializers": []
+        },
+        {
+            "type": "var_def_stmt_syntax",
+            "line": 8,
+            "pos": 4,
+            "is_const": false,
+            "name": "a2",
+            "array_length": {
+                "type": "literal_syntax",
+                "line": 8,
+                "pos": 7,
+                "value": 3
+            },
+            "array_initializers": [
+                {
+                    "type": "literal_syntax",
+                    "line": 8,
+                    "pos": 13,
+                    "value": 1
+                },
+                {
+                    "type": "literal_syntax",
+                    "line": 8,
+                    "pos": 16,
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "type": "var_def_stmt_syntax",
+            "line": 9,
+            "pos": 4,
+            "is_const": false,
+            "name": "a3",
+            "array_length": {
+                "type": "literal_syntax",
+                "line": 9,
+                "pos": 7,
+                "value": 4
+            },
+            "array_initializers": [
+                {
+                    "type": "literal_syntax",
+                    "line": 9,
+                    "pos": 12,
+                    "value": 1
+                },
+                {
+                    "type": "literal_syntax",
+                    "line": 9,
+                    "pos": 15,
+                    "value": 2
+                },
+                {
+                    "type": "literal_syntax",
+                    "line": 9,
+                    "pos": 18,
+                    "value": 3
+                },
+                {
+                    "type": "literal_syntax",
+                    "line": 9,
+                    "pos": 21,
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "type": "var_def_stmt_syntax",
+            "line": 10,
+            "pos": 10,
+            "is_const": true,
+            "name": "c1",
+            "vardef_initializer": {
+                "type": "literal_syntax",
+                "line": 10,
+                "pos": 15,
+                "value": 3
+            }
+        },
+        {
+            "type": "var_def_stmt_syntax",
+            "line": 10,
+            "pos": 18,
+            "is_const": true,
+            "name": "a4",
+            "array_length": {
+                "type": "literal_syntax",
+                "line": 10,
+                "pos": 21,
+                "value": 2
+            },
+            "array_initializers": [
+                {
+                    "type": "literal_syntax",
+                    "line": 10,
+                    "pos": 27,
+                    "value": 1
+                },
+                {
+                    "type": "literal_syntax",
+                    "line": 10,
+                    "pos": 30,
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "type": "func_def_syntax",
+            "line": 12,
+            "pos": 0,
+            "name": "main",
+            "body": {
+                "type": "block_syntax",
+                "line": 13,
+                "pos": 0,
+                "body": [
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 14,
+                        "pos": 8,
+                        "is_const": false,
+                        "name": "v1"
+                    },
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 14,
+                        "pos": 12,
+                        "is_const": false,
+                        "name": "v2",
+                        "vardef_initializer": {
+                            "type": "literal_syntax",
+                            "line": 14,
+                            "pos": 17,
+                            "value": 3
+                        }
+                    },
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 15,
+                        "pos": 8,
+                        "is_const": false,
+                        "name": "a1",
+                        "array_length": {
+                            "type": "literal_syntax",
+                            "line": 15,
+                            "pos": 11,
+                            "value": 3
+                        },
+                        "array_initializers": []
+                    },
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 16,
+                        "pos": 8,
+                        "is_const": false,
+                        "name": "a2",
+                        "array_length": {
+                            "type": "literal_syntax",
+                            "line": 16,
+                            "pos": 11,
+                            "value": 3
+                        },
+                        "array_initializers": [
+                            {
+                                "type": "literal_syntax",
+                                "line": 16,
+                                "pos": 17,
+                                "value": 1
+                            },
+                            {
+                                "type": "literal_syntax",
+                                "line": 16,
+                                "pos": 20,
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 17,
+                        "pos": 8,
+                        "is_const": false,
+                        "name": "a3",
+                        "array_length": {
+                            "type": "literal_syntax",
+                            "line": 17,
+                            "pos": 11,
+                            "value": 4
+                        },
+                        "array_initializers": [
+                            {
+                                "type": "literal_syntax",
+                                "line": 17,
+                                "pos": 16,
+                                "value": 1
+                            },
+                            {
+                                "type": "literal_syntax",
+                                "line": 17,
+                                "pos": 19,
+                                "value": 2
+                            },
+                            {
+                                "type": "literal_syntax",
+                                "line": 17,
+                                "pos": 22,
+                                "value": 3
+                            },
+                            {
+                                "type": "literal_syntax",
+                                "line": 17,
+                                "pos": 25,
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 18,
+                        "pos": 10,
+                        "is_const": true,
+                        "name": "c1",
+                        "vardef_initializer": {
+                            "type": "literal_syntax",
+                            "line": 18,
+                            "pos": 15,
+                            "value": 3
+                        }
+                    },
+                    {
+                        "type": "var_def_stmt_syntax",
+                        "line": 18,
+                        "pos": 18,
+                        "is_const": true,
+                        "name": "a4",
+                        "array_length": {
+                            "type": "literal_syntax",
+                            "line": 18,
+                            "pos": 21,
+                            "value": 2
+                        },
+                        "array_initializers": [
+                            {
+                                "type": "literal_syntax",
+                                "line": 18,
+                                "pos": 26,
+                                "value": 1
+                            },
+                            {
+                                "type": "literal_syntax",
+                                "line": 18,
+                                "pos": 29,
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "type": "if_stmt_syntax",
+                        "line": 19,
+                        "pos": 4,
+                        "pred": {
+                            "type": "cond_syntax",
+                            "line": 19,
+                            "pos": 7,
+                            "op": "greater",
+                            "lhs": {
+                                "type": "lval_syntax",
+                                "line": 19,
+                                "pos": 7,
+                                "name": "i"
+                            },
+                            "rhs": {
+                                "type": "literal_syntax",
+                                "line": 19,
+                                "pos": 11,
+                                "value": 0
+                            }
+                        },
+                        "thenbody": {
+                            "type": "assign_stmt_syntax",
+                            "line": 19,
+                            "pos": 14,
+                            "target": {
+                                "type": "lval_syntax",
+                                "line": 19,
+                                "pos": 14,
+                                "name": "i"
+                            },
+                            "value": {
+                                "type": "literal_syntax",
+                                "line": 19,
+                                "pos": 18,
+                                "value": 1
+                            }
+                        },
+                        "elsebody": {
+                            "type": "assign_stmt_syntax",
+                            "line": 20,
+                            "pos": 9,
+                            "target": {
+                                "type": "lval_syntax",
+                                "line": 20,
+                                "pos": 9,
+                                "name": "i"
+                            },
+                            "value": {
+                                "type": "unaryop_expr_syntax",
+                                "line": 20,
+                                "pos": 13,
+                                "op": "minus",
+                                "rhs": {
+                                    "type": "literal_syntax",
+                                    "line": 20,
+                                    "pos": 14,
+                                    "value": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "assign_stmt_syntax",
+                        "line": 21,
+                        "pos": 4,
+                        "target": {
+                            "type": "lval_syntax",
+                            "line": 21,
+                            "pos": 4,
+                            "name": "i"
+                        },
+                        "value": {
+                            "type": "binop_expr_syntax",
+                            "line": 21,
+                            "pos": 8,
+                            "op": "modulo",
+                            "lhs": {
+                                "type": "binop_expr_syntax",
+                                "line": 21,
+                                "pos": 8,
+                                "op": "divide",
+                                "lhs": {
+                                    "type": "binop_expr_syntax",
+                                    "line": 21,
+                                    "pos": 8,
+                                    "op": "multiply",
+                                    "lhs": {
+                                        "type": "binop_expr_syntax",
+                                        "line": 21,
+                                        "pos": 9,
+                                        "op": "minus",
+                                        "lhs": {
+                                            "type": "binop_expr_syntax",
+                                            "line": 21,
+                                            "pos": 9,
+                                            "op": "plus",
+                                            "lhs": {
+                                                "type": "lval_syntax",
+                                                "line": 21,
+                                                "pos": 9,
+                                                "name": "i"
+                                            },
+                                            "rhs": {
+                                                "type": "literal_syntax",
+                                                "line": 21,
+                                                "pos": 13,
+                                                "value": 1
+                                            }
+                                        },
+                                        "rhs": {
+                                            "type": "literal_syntax",
+                                            "line": 21,
+                                            "pos": 17,
+                                            "value": 1
+                                        }
+                                    },
+                                    "rhs": {
+                                        "type": "literal_syntax",
+                                        "line": 21,
+                                        "pos": 22,
+                                        "value": 3
+                                    }
+                                },
+                                "rhs": {
+                                    "type": "literal_syntax",
+                                    "line": 21,
+                                    "pos": 26,
+                                    "value": 2
+                                }
+                            },
+                            "rhs": {
+                                "type": "literal_syntax",
+                                "line": 21,
+                                "pos": 30,
+                                "value": 3
+                            }
+                        }
+                    },
+                    {
+                        "type": "while_stmt_syntax",
+                        "line": 22,
+                        "pos": 4,
+                        "pred": {
+                            "type": "cond_syntax",
+                            "line": 22,
+                            "pos": 11,
+                            "op": "greater",
+                            "lhs": {
+                                "type": "lval_syntax",
+                                "line": 22,
+                                "pos": 11,
+                                "name": "i"
+                            },
+                            "rhs": {
+                                "type": "literal_syntax",
+                                "line": 22,
+                                "pos": 15,
+                                "value": 0
+                            }
+                        },
+                        "body": {
+                            "type": "assign_stmt_syntax",
+                            "line": 22,
+                            "pos": 18,
+                            "target": {
+                                "type": "lval_syntax",
+                                "line": 22,
+                                "pos": 18,
+                                "name": "i"
+                            },
+                            "value": {
+                                "type": "binop_expr_syntax",
+                                "line": 22,
+                                "pos": 22,
+                                "op": "minus",
+                                "lhs": {
+                                    "type": "lval_syntax",
+                                    "line": 22,
+                                    "pos": 22,
+                                    "name": "i"
+                                },
+                                "rhs": {
+                                    "type": "literal_syntax",
+                                    "line": 22,
+                                    "pos": 26,
+                                    "value": 1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "if_stmt_syntax",
+                        "line": 23,
+                        "pos": 4,
+                        "pred": {
+                            "type": "cond_syntax",
+                            "line": 23,
+                            "pos": 7,
+                            "op": "equal",
+                            "lhs": {
+                                "type": "lval_syntax",
+                                "line": 23,
+                                "pos": 7,
+                                "name": "i"
+                            },
+                            "rhs": {
+                                "type": "literal_syntax",
+                                "line": 23,
+                                "pos": 12,
+                                "value": 0
+                            }
+                        },
+                        "thenbody": {
+                            "type": "assign_stmt_syntax",
+                            "line": 23,
+                            "pos": 15,
+                            "target": {
+                                "type": "lval_syntax",
+                                "line": 23,
+                                "pos": 15,
+                                "name": "i"
+                            },
+                            "value": {
+                                "type": "literal_syntax",
+                                "line": 23,
+                                "pos": 19,
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "type": "func_call_stmt_syntax",
+                        "line": 24,
+                        "pos": 4,
+                        "name": "func"
+                    },
+                    {
+                        "type": "empty_stmt_syntax",
+                        "line": 25,
+                        "pos": 4
+                    },
+                    {
+                        "type": "empty_stmt_syntax",
+                        "line": 25,
+                        "pos": 5
+                    }
+                ]
+            }
+        }
+    ]
+}

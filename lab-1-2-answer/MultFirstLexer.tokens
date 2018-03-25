@@ -1,0 +1,11 @@
+LeftParen=1
+RightParen=2
+Plus=3
+Multiply=4
+Number=5
+Identifier=6
+WhiteSpace=7
+'('=1
+')'=2
+'+'=3
+'*'=4

@@ -1,0 +1,9 @@
+CPU: Intel (R) Core(TM) i7-4710HQ CPU @ 2.50GHz
+内存大小: 8GB, swap space 5GB
+操作系统: ubuntu
+cmake目标: make
+cmake build type: Debug
+编译线程数: 先j8, 出错退出后改j1
+编译耗时: j8 25min，j1 35min
+内存占用峰值: j8 7.07GB, j1 7.56GB
+遇到的问题: 内存不够, 线程被kill, 从kill点开始j1编译即可
